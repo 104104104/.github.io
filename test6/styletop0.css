@@ -27,6 +27,7 @@ ul {
 
 .title{
   width: 40%;
+  background: lime;
 }
 .title > h1 > a{
   font-size:50px;
