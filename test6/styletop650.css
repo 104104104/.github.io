@@ -27,7 +27,7 @@ ul {
 
 .title{
   float: left;
-  width: 40%;
+  width: auto;
   background: blue;
 }
 .title > h1 > a{
@@ -64,7 +64,7 @@ ul {
     margin-left: 3%;
     margin-bottom: 3%;
     width: 42%;
-    height: 30%;
+    height: auto;
     float:left;
     background: #f8cbad;
   }
@@ -83,7 +83,7 @@ ul {
     margin-bottom: 3%;
     background: #bdd7ee;
     width: 42%;
-    height: 30%;
+    height: auto;
     float:right;
   }
   .topbox2 > h1{
@@ -100,7 +100,7 @@ ul {
     margin-left: 3%;
     margin-bottom: 3%;
     width: 42%;
-    height: 30%;
+    height: auto;
     float:left;
     background: #c5e0b4;
   }
@@ -119,7 +119,7 @@ ul {
     margin-right: 3%;
     margin-bottom: 3%;
     width: 42%;
-    height: 30%;
+    height: auto;
     float:right;
   }
   .topbox4 > h1{
