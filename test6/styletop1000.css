@@ -57,13 +57,16 @@ ul {
   margin: 0 0 0 0;
   position: absolute;
   left: 75%;
+  top: 5px;
 }
-.title_info_box_2 > ul > li > a1 > a{
+.title_info_box_2 > a1 > p > a{
   background: black;
   border-radius: 10px;
   color: #ffffff;
+  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-.title_info_box_2 > ul > li > a2 > a{
+.title_info_box_2 > a2 > p > a{
   background: black;
   border-radius: 10px;
   color: #666666;
@@ -168,7 +171,7 @@ ul {
 }
 
 .about{
-  width: 100%;
+  width: 90%;
   margin-left: 5%;
 }
 .about > p{
