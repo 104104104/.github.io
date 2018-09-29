@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+<!--ここには、文字のサイズと色、背景の色までは書く。それ以上のstyleはtop.cssに書く。-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,47 +21,56 @@
     <header style="background-color:#2ECCFA">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-5">
-            <h1><b>つなぐカフェ@飯塚</b></h1>
+          <div class="col-md-6">
+            <h1  style="font-size: 50px"><b><img src="css/pic/logo_maru.png" class="img-responsive" id="titlelogo">つなぐカフェ@飯塚</b></h1>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-3">
             <h5>開館時間 : 10:00~21:00<br>
                 休館日　 : 毎週水曜日、12/29 ~ 1/3</h5>
           </div>
           <div class="col-md-3">
-            <h6><a href="https://ja-jp.facebook.com/cafeiizuka/">　公式facebookはコチラ</a></h6>
-            <h6><a href="https://twitter.com/cafe_iizuka">　公式Twitterはコチラ</a></h6>
-          </div>
+            <button type="button" class="btn btn-primary"><a href="https://ja-jp.facebook.com/cafeiizuka/" style="color : #ffffff">公式facebookはコチラ</a></button>
+            <button type="button" class="btn btn-primary"><a href="https://twitter.com/cafe_iizuka"  style="color : #ffffff">公式Twitterはコチラ</a></button>
         </div>
       </div>
     </header>
 
     <top>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6" style="background-color:#f8cbad; border: solid 2px #c55a11;">
-            <h1>機器の貸し出し</h1>
-            <p>PC, iPad, 大型スクリーン等</p>
-            <p>無料Wi-fiもあります</p>
-          </div>
-          <div class="col-md-6" style="background-color:#bdd7ee; border: solid 2px #1f4e79;">
-            <h1>交流の場</h1>
-            <p>学生、企業、市民の出会いの場</p>
-            <p>普段会えない人と交流できます</p>
+      <div class="topboxes"  style="background-image:url('css/pic/tsunagu_mujin_toumei.jpg')" id="topboxes">
+        <div class="container-fluid" >
+          <div class="row">
+            <div class="col-md-6">
+              <div class="topbox" style="background-color:rgba(248,203,173, 0.8); border: solid 2px #c55a11;" id="top1">
+                <h1><b>機器の貸し出し</b></h1>
+                <p style="font-size : 20px">PC, iPad, 大型スクリーン等</p>
+                <p style="font-size : 20px">無料Wi-fiもあります</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="topbox" style="background-color:rgba(189,215, 238, 0.8); border: solid 2px #1f4e79;" id="top2">
+                <h1><b>交流の場</b></h1>
+                <p style="font-size : 20px">学生、企業、市民の出会いの場</p>
+                <p style="font-size : 20px">普段会えない人と交流できます</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6" style="background-color:#c5e0b4; border: solid 2px #385723;">
-            <h1>スタッフ</h1>
-            <p>学生スタッフがあなたの</p>
-            <p>「やりたいこと」をサポートします</p>
-          </div>
-          <div class="col-md-6" style="background-color:#ffe699; border: solid 2px #7f6000;">
-            <h1>個人作業</h1>
-            <p>本気で作業したいときに</p>
-            <p>集中ブースもあります</p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="topbox" style="background-color:rgba(197,224,180,0.8); border: solid 2px #385723;" id="top3">
+                <h1><b>スタッフ</b></h1>
+                <p style="font-size : 20px">学生スタッフがあなたの</p>
+                <p style="font-size : 20px">「やりたいこと」をサポートします</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="topbox" style="background-color:rgba(255, 230, 153, 0.8); border: solid 2px #7f6000;" id="top4">
+                <h1><b>個人作業</b></h1>
+                <p style="font-size : 20px">本気で作業したいときに</p>
+                <p style="font-size : 20px">集中ブースもあります</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
