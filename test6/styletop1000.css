@@ -3,8 +3,7 @@
 @-ms-viewport {width: device-width;}
 
 .body {
-  font-family: '游ゴシック','Yugothic', 'メイリオ',
-  'Hiragino Kaku Gothic Pro', sans-serif;
+  font-family: '游ゴシック','Yugothic', 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
   background-color: #ff1111;
   /*position: absolute;*/
 }
