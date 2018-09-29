@@ -206,12 +206,12 @@ ul {
 .map{
   padding-left: 5%;
 }
-.map{
-  font-size: 4vw;
+.map　> h1{
+  font-size: 5vw;
 }
 .map > p{
   font-size: 20px;
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .ggmap {
