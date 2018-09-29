@@ -8,24 +8,29 @@
 }
 
 #titlelogo{
+  margin-top: 12%;
   height: 70px;
   width: auto;
-  margin-left: -2%;
 }
-
-
-#topboxes{
-  top:0px;
-  left:0px;
-  width: 100%;
-  height: auto;
+#titlechar{
+  margin-top: 1%;
 }
-
+#time{
+  margin-top: 1%;
+}
+#topbotton1{
+  margin-top: 5px;
+  margin-bottom: 2.5px;
+}
+#topbotton2{
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+}
 .topbox{
   margin-top : 5%;
   margin-bottom: 5%;
-  margin-left : 15%;
-  margin-right: 15%;
+  margin-left : 10%;
+  margin-right: 10%;
   border-radius: 20px;
 }
 .topbox > h1{
@@ -35,6 +40,21 @@
   text-align: center;
 }
 
+#about{
+  font-size: 20px;
+}
+#gaikanpic{
+  width: 100%;
+  height: auto;
+}
+
+#join{
+  font-size:20px;
+}
+
+#sns{
+  font-size: 20px;
+}
 
 .ggmap {
     position: relative;

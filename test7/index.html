@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <!--ここには、文字のサイズと色、背景の色までは書く。それ以上のstyleはtop.cssに書く。-->
+<!--↑やっぱなしで。-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,19 +19,22 @@
   <body>
 
 
-    <header style="background-color:#2ECCFA">
+    <header style="background-color:#55CCFF">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
-            <h1  style="font-size: 50px"><b><img src="css/pic/logo_maru.png" class="img-responsive" id="titlelogo">つなぐカフェ@飯塚</b></h1>
+          <div class="col-md-1.5">
+            <img src="css/pic/logo_maru.png" class="img-responsive" id="titlelogo">
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4.5" id="titlechar">
+            <h1  style="font-size: 50px"><b>つなぐカフェ@飯塚</b></h1>
+          </div>
+          <div class="col-md-4" id="time">
             <h5>開館時間 : 10:00~21:00<br>
                 休館日　 : 毎週水曜日、12/29 ~ 1/3</h5>
           </div>
-          <div class="col-md-3">
-            <button type="button" class="btn btn-primary"><a href="https://ja-jp.facebook.com/cafeiizuka/" style="color : #ffffff">公式facebookはコチラ</a></button>
-            <button type="button" class="btn btn-primary"><a href="https://twitter.com/cafe_iizuka"  style="color : #ffffff">公式Twitterはコチラ</a></button>
+          <div class="col-md-2">
+            <button type="button" class="btn btn-primary" id="topbotton1"><a href="https://ja-jp.facebook.com/cafeiizuka/" style="color : #ffffff">公式facebook</a></button>
+            <button type="button" class="btn btn-primary" id="topbotton2"><a href="https://twitter.com/cafe_iizuka"  style="color : #ffffff">公式Twitter</a></button>
         </div>
       </div>
     </header>
@@ -42,15 +46,13 @@
             <div class="col-md-6">
               <div class="topbox" style="background-color:rgba(248,203,173, 0.8); border: solid 2px #c55a11;" id="top1">
                 <h1><b>機器の貸し出し</b></h1>
-                <p style="font-size : 20px">PC, iPad, 大型スクリーン等</p>
-                <p style="font-size : 20px">無料Wi-fiもあります</p>
+                <p style="font-size : 20px">PC, iPad, 大型スクリーンなど<br>無料Wi-fiもあります</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="topbox" style="background-color:rgba(189,215, 238, 0.8); border: solid 2px #1f4e79;" id="top2">
                 <h1><b>交流の場</b></h1>
-                <p style="font-size : 20px">学生、企業、市民の出会いの場</p>
-                <p style="font-size : 20px">普段会えない人と交流できます</p>
+                <p style="font-size : 20px">学生、企業、市民の出会いの場<br>普段会えない人と交流できます</p>
               </div>
             </div>
           </div>
@@ -60,15 +62,13 @@
             <div class="col-md-6">
               <div class="topbox" style="background-color:rgba(197,224,180,0.8); border: solid 2px #385723;" id="top3">
                 <h1><b>スタッフ</b></h1>
-                <p style="font-size : 20px">学生スタッフがあなたの</p>
-                <p style="font-size : 20px">「やりたいこと」をサポートします</p>
+                <p style="font-size : 20px">学生スタッフがあなたの<br>「やりたいこと」をサポートします</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="topbox" style="background-color:rgba(255, 230, 153, 0.8); border: solid 2px #7f6000;" id="top4">
                 <h1><b>個人作業</b></h1>
-                <p style="font-size : 20px">本気で作業したいときに</p>
-                <p style="font-size : 20px">集中ブースもあります</p>
+                <p style="font-size : 20px">本気で作業したいときに<br>集中ブースもあります</p>
               </div>
             </div>
           </div>
@@ -76,48 +76,66 @@
       </div>
     </top>
 
-    <about>
-      <div class="container-fluid">
-        <h1>ABOUT</h1>
-        <p>学生どうし、企業どうし、そして学生と企業を「つなぐ」場所が、飯塚市市民交流プラザ内に誕生しました。</p>
-        <p>最先端の機器や、学生スタッフ、個人作業のためのブースなど、あらゆる活動を支援します。</p>
-        <p>集中できる作業スペースとして、イベントを開く場所として、あるいは、くつろげるスペースとしても、ご気軽にご利用ください。</p>
-      </div>
-    </about>
 
-    <join>
-      <div class="container-fluid">
-        <h1>JOIN</h1>
-          <p><b1>10月1日より利用可能になる「つなぐカフェ＠飯塚」を利用するためには、会員（利用）登録が必要です。受付で簡単に登録できます！(保安上および利用者数把握のためにご協力ください。)</b1><br>
-          <br>
-          〇<b>『会員証』提示により、以下の利用が可能です。</b><br>
-          ①「つなぐカフェ＠飯塚」の利用（場所の利用および予約利用、無線 LAN の使用)<br>
-          ②「つなぐカフェ＠飯塚」の機器の利用および機器の使用方法の説明・有効利用のアドバイス（主な機器：ノートＰＣ[MacbookPro13 インチ]、iPad9.7 インチ、3D プリンタ･ダヴィンチ Jr.1.03-in1、カラープリンタ、プロジェクタ)<br>
-          ③「つなぐカフェ＠飯塚」を通じた学生活動・市民活動および企業活動等の情報提供<br>
-          ④「つなぐカフェ＠飯塚」内での相談・提案の受付（イベントの開催、企業・学生・教員などの紹介、人材・開発等に関する情報提供および支援など)<br>
-      </div>
-    </join>
-
-    <sns>
-      <div class="container-fluid">
-        <h1>SNS</h1>
-            <p>つなぐカフェ@飯塚公式facebookは<a href="https://ja-jp.facebook.com/cafeiizuka/">コチラ</a></p>
-            <p>つなぐカフェ@飯塚公式Twitterは<a href="https://twitter.com/cafe_iizuka">コチラ</a></p>
+      <div class="container-fluid" id="about">
+        <div class="row">
+          <div class="col-md-2">
+            <h1></h1>
+          </div>
+          <div class="col-md-6">
+            <p style="font-size:20px;"><br>学生、市民、企業を「つなぐ」場所が、飯塚市市民交流プラザ内に誕生しました。<br>
+            最先端の機器や、学生スタッフ、個人作業のためのブースなど、あらゆる活動を支援します。<br>
+            集中できる作業スペースとして、イベントを開く場所として、あるいは、くつろげるスペースとしても、ご気軽にご利用ください。</p>
+          </div>
+          <div class="col-md-4">
+              <img src="css/pic/gaikan.jpg" class="img-responsive" id="gaikanpic">
+          </div>
         </div>
-    </sns>
+      </div>
 
-    <map>
+      <div class="container-fluid" id="join">
+        <div class="row">
+          <div class="col-md-2">
+            <h1>JOIN</h1>
+          </div>
+          <div class="col-md-10">
+            <p　style="font-size: 20px;"><br>
+              <b style="font-size: 20px">10月1日より利用可能になる「つなぐカフェ＠飯塚」を利用するためには、会員（利用）登録が必要です。受付で簡単に登録できます！(保安上および利用者数把握のためにご協力ください。)</b><br>
+              <br>
+              〇<b style="font-size:20px;">『会員証』提示により、以下の利用が可能です。</b><br>
+              ①「つなぐカフェ＠飯塚」の利用（場所の利用および予約利用、無線 LAN の使用)<br>
+              ②「つなぐカフェ＠飯塚」の機器の利用および機器の使用方法の説明・有効利用のアドバイス（主な機器：ノートＰＣ[MacbookPro13 インチ]、iPad9.7 インチ、3D プリンタ･ダヴィンチ Jr.1.03-in1、カラープリンタ、プロジェクタ)<br>
+              ③「つなぐカフェ＠飯塚」を通じた学生活動・市民活動および企業活動等の情報提供<br>
+              ④「つなぐカフェ＠飯塚」内での相談・提案の受付（イベントの開催、企業・学生・教員などの紹介、人材・開発等に関する情報提供および支援など)<br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container-fluid" id="sns">
+        <div class="row">
+          <div class="col-md-2">
+            <h1>SNS</h1>
+          </div>
+          <div class="col-md-10">
+            <br>
+            <p style="font-size:20px;">つなぐカフェ@飯塚公式facebookは<a href="https://ja-jp.facebook.com/cafeiizuka/">コチラ</a><br>
+            つなぐカフェ@飯塚公式Twitterは<a href="https://twitter.com/cafe_iizuka">コチラ</a></p>
+          </div>
+        </div>
+      </div>
+
       <div class="container-fluid">
         <h1>つなぐカフェ@飯塚周辺マップ</h1>
-        <p>　芳雄橋西交差点、飯塚バスセンター東隣、あいタウンの２階です！</p>
+        <p style="font-size:20px">　芳雄橋西交差点、飯塚バスセンター東隣、あいタウンの２階です</p>
         <div class="ggmap">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1660.7973676660567!2d130.6853396572977!3d33.64174853705819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35417e3a923c2e59%3A0xf992087a45adb20!2z44GC44GE44K_44Km44Oz!5e0!3m2!1sja!2sjp!4v1537716817993" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
-    </map>
 
 
-    <footer style="background-color:#AAAAAA">
+    <footer style="background-color:#eeeeee">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-7">
