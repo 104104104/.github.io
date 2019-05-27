@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://test.com/</link>
+    <link>https://104104104.github.io/test19/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 27 May 2019 17:08:55 +0900</lastBuildDate>
     
-	<atom:link href="http://test.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://104104104.github.io/test19/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Test1</title>
-      <link>http://test.com/blog/test1/</link>
+      <link>https://104104104.github.io/test19/blog/test1/</link>
       <pubDate>Mon, 27 May 2019 17:08:55 +0900</pubDate>
       
-      <guid>http://test.com/blog/test1/</guid>
+      <guid>https://104104104.github.io/test19/blog/test1/</guid>
       <description> test1 </description>
     </item>
     
     <item>
       <title>All_blog</title>
-      <link>http://test.com/pages/all_blog/</link>
+      <link>https://104104104.github.io/test19/pages/all_blog/</link>
       <pubDate>Mon, 27 May 2019 17:03:49 +0900</pubDate>
       
-      <guid>http://test.com/pages/all_blog/</guid>
+      <guid>https://104104104.github.io/test19/pages/all_blog/</guid>
       <description> ALLBLOG  {{ range (.Paginator 10).Pages }} {{ .Render &#34;list&#34; }} {{ end }}  </description>
     </item>
     
