@@ -3,18 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://104104104.github.io/html_experiment/</loc>
+    <lastmod>2019-06-04T23:50:19+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/html_experiment/javascript/</loc>
+    <lastmod>2019-06-04T23:50:19+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/</loc>
+    <lastmod>2019-06-04T23:50:19+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://104104104.github.io/portfolio/flier/</loc>
     <lastmod>2019-06-02T22:09:08+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://104104104.github.io/portfolio/</loc>
-    <lastmod>2019-06-02T22:09:08+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://104104104.github.io/</loc>
     <lastmod>2019-06-02T22:09:08+09:00</lastmod>
     <priority>0</priority>
   </url>
