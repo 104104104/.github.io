@@ -3,6 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://104104104.github.io/website/tsunaguhugo/</loc>
+    <lastmod>2019-06-24T19:47:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/website/</loc>
+    <lastmod>2019-06-24T19:47:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/</loc>
+    <lastmod>2019-06-24T19:47:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/website/tsunaguold/</loc>
+    <lastmod>2019-06-24T19:29:54+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://104104104.github.io/flier/</loc>
     <lastmod>2019-06-17T15:56:46+09:00</lastmod>
     <priority>0</priority>
@@ -11,12 +33,6 @@
   <url>
     <loc>https://104104104.github.io/flier/retoro/</loc>
     <lastmod>2019-06-17T15:56:46+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://104104104.github.io/</loc>
-    <lastmod>2019-06-17T15:56:46+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
