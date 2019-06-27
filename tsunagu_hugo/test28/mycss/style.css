@@ -60,6 +60,16 @@
     }
   }
 
+  @media screen and (max-width: 699px) {
+    /*　画面サイズ 699pxまで適用　*/
+.topforstudent{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  letter-spacing: 2px;
+  line-height: 32px;
+  }
+  @media screen and (min-width: 700px) {
+    /*　画面サイズ 700px以上から適用　*/
 .topforstudent{
   margin-left: 20px;
   margin-right: 20px;
@@ -67,6 +77,7 @@
   padding-bottom: 30px;
   letter-spacing: 2px;
   line-height: 32px;
+}
 }
 .topforstudent p{
   letter-spacing: 0px;
