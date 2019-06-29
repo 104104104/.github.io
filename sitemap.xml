@@ -3,20 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://104104104.github.io/website/tsunaguhugo/</loc>
-    <lastmod>2019-06-24T19:47:05+09:00</lastmod>
+    <loc>https://104104104.github.io/program/</loc>
+    <lastmod>2019-06-29T14:38:34+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://104104104.github.io/website/</loc>
-    <lastmod>2019-06-24T19:47:05+09:00</lastmod>
-    <priority>0</priority>
+    <loc>https://104104104.github.io/program/pyxelgame/</loc>
+    <lastmod>2019-06-29T14:38:34+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://104104104.github.io/</loc>
-    <lastmod>2019-06-24T19:47:05+09:00</lastmod>
+    <lastmod>2019-06-29T14:38:34+09:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/website/tsunaguhugo/</loc>
+    <lastmod>2019-06-28T19:47:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/website/</loc>
+    <lastmod>2019-06-28T19:47:05+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/program/tapioka/</loc>
+    <lastmod>2019-06-28T14:16:20+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/event/</loc>
+    <lastmod>2019-06-26T11:21:36+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/event/pyxel/</loc>
+    <lastmod>2019-06-26T11:21:36+09:00</lastmod>
   </url>
   
   <url>
@@ -81,12 +108,6 @@
   <url>
     <loc>https://104104104.github.io/tsunagusite/fullscratch/</loc>
     <lastmod>2019-06-02T18:16:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://104104104.github.io/event/</loc>
-    <lastmod>2019-05-25T15:51:17+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

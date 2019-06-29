@@ -9,24 +9,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <link href="https://104104104.github.io/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        
-        <script src="js/bootstrap.min.js"></script>
+        <script src="/mycss/style.css"></script>
     </head>
 
     <body>
         <header>
             
-            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-                <a href="https://104104104.github.io" class="navbar-brand">吉田</a>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+              <a href="https://104104104.github.io" class="navbar-brand">吉田</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu1" aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navmenu1">
                 <a href="https://104104104.github.io/event" class="navbar-brand">イベント</a>
                 <a href="https://104104104.github.io/flier" class="navbar-brand">フライヤー</a>
                 <a href="https://104104104.github.io/website" class="navbar-brand">webサイト</a>
+                <a href="https://104104104.github.io/program" class="navbar-brand">プログラム</a>
                 <a href="https://github.com/104104104" class="navbar-brand">吉田のGitHub</a>
-
-
+              </div>
             </nav>
 
         </header>
@@ -46,7 +48,10 @@
 
 <h3 id="トップページ-の画像">トップページ(の画像)</h3>
 
-<p><img src="https://104104104.github.io/siteImg2/TsunaguOld.jpg" class="img-fluid "></p>
+<p><a href="https://104104104.github.io//website2/tsunaguOld/index.html">
+    <img src="https://104104104.github.io/website2/TsunaguOld.jpg" class="img-fluid "></p>
+
+<p></a></p>
 
 <h3 id="いつ作ったものか">いつ作ったものか</h3>
 
@@ -55,7 +60,7 @@
 <h3 id="完成品全体">完成品全体</h3>
 
 <p><a href="https://104104104.github.io//website2/tsunaguOld/index.html">
-    こちらのリンクに置いています
+    古いバージョンのものですが、こちらのリンクに置いています
 </a></p>
 
 <h3 id="なぜ作ったか">なぜ作ったか</h3>
@@ -75,12 +80,25 @@
 <h3 id="伝えたい相手">伝えたい相手</h3>
 
 <ul>
-<li>これを作っていた頃は、「伝えたい相手」みたいなことをいまいち意識していなかった気がします…</li>
+<li>飯塚の市民の方
+
+<ul>
+<li>今思えば、曖昧な目標だな…と感じる。市民の方も色々いるし、「市民」という属性でくくっては広範囲すぎて、伝える話を決めるのも難しい…</li>
+</ul></li>
 </ul>
 
 <h3 id="伝えたいこと">伝えたいこと</h3>
 
-<p>つなぐカフェの概要。とりあえず全てが簡単に書かれている。</p>
+<ul>
+<li>これまでになかった学生と市民が恒常的な交流ができる場ができたこと。</li>
+<li>つなぐカフェの設置意図。
+
+<ul>
+<li>学生、企業、市民をつなぐ場であること</li>
+<li>学びのための場であること</li>
+<li>学生がスタッフをしていること</li>
+</ul></li>
+</ul>
 </p>
             </div>
         </div>
@@ -99,10 +117,27 @@
 <ul>
     <li><a href="/">吉田のサイト</a>
 <ul>
+    <li><a href="/program/">Program</a>
+        <ul>
+            <li><a href="https://104104104.github.io/program/pyxelgame/">Pyxelで作った避けゲー</a>
+            <li><a href="https://104104104.github.io/program/tapioka/">荒ぶるタピオカ</a>
+        </ul>
+            </li>
+</ul>
+<ul>
     <li><a href="/website/">Website</a>
         <ul>
             <li><a href="https://104104104.github.io/website/tsunaguhugo/">つなぐカフェ＠飯塚webサイト(Hugoバージョン)</a>
             <li><a href="https://104104104.github.io/website/tsunaguold/">つなぐカフェ＠飯塚webサイト(旧バージョン)</a>
+        </ul>
+            </li>
+</ul>
+<ul>
+    <li><a href="/event/">Event</a>
+        <ul>
+            <li><a href="https://104104104.github.io/event/pyxel/">初心者のためのレトロゲームを作ってみようの会</a>
+            <li><a href="https://104104104.github.io/event/rantyao/">藍橋杯(国際プログラミングコンテスト)のスタッフ　および　藍橋杯に向けた勉強会主催</a>
+            <li><a href="https://104104104.github.io/event/sinnyuusei/">新入生のためのプログラミング入門イベントの主催</a>
         </ul>
             </li>
 </ul>
@@ -141,14 +176,6 @@
         </ul>
             </li>
 </ul>
-<ul>
-    <li><a href="/event/">Event</a>
-        <ul>
-            <li><a href="https://104104104.github.io/event/rantyao/">藍橋杯(国際プログラミングコンテスト)のスタッフ　および　藍橋杯に向けた勉強会主催</a>
-            <li><a href="https://104104104.github.io/event/sinnyuusei/">新入生のためのプログラミング入門イベントの主催</a>
-        </ul>
-            </li>
-</ul>
         <ul>
             <li><a href="https://104104104.github.io/pyxel/">Pyxel</a>
         </ul>
@@ -160,6 +187,11 @@
         </div>
     </div>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
 
 

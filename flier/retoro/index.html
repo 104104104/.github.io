@@ -9,24 +9,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         
-        <link href="https://104104104.github.io/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        
-        <script src="js/bootstrap.min.js"></script>
+        <script src="/mycss/style.css"></script>
     </head>
 
     <body>
         <header>
             
-            <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
-                <a href="https://104104104.github.io" class="navbar-brand">吉田</a>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+              <a href="https://104104104.github.io" class="navbar-brand">吉田</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu1" aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navmenu1">
                 <a href="https://104104104.github.io/event" class="navbar-brand">イベント</a>
                 <a href="https://104104104.github.io/flier" class="navbar-brand">フライヤー</a>
                 <a href="https://104104104.github.io/website" class="navbar-brand">webサイト</a>
+                <a href="https://104104104.github.io/program" class="navbar-brand">プログラム</a>
                 <a href="https://github.com/104104104" class="navbar-brand">吉田のGitHub</a>
-
-
+              </div>
             </nav>
 
         </header>
@@ -86,9 +88,14 @@
 
 <h3 id="イベントについて">イベントについて</h3>
 
-<p>(6/26に開催したら更新します)</p>
+<p><del>(6/26に開催したら更新します)</del></p>
 
-<p>(これを書いたのは6/24です)</p>
+<p><del>(これを書いたのは6/24です)</del></p>
+
+<p>詳細は<a href="https://104104104.github.io//event/pyxel">
+    こちら
+</a>
+(2019/6/29更新)</p>
 
 <h3 id="pdf版">PDF版</h3>
 
@@ -115,10 +122,27 @@
 <ul>
     <li><a href="/">吉田のサイト</a>
 <ul>
+    <li><a href="/program/">Program</a>
+        <ul>
+            <li><a href="https://104104104.github.io/program/pyxelgame/">Pyxelで作った避けゲー</a>
+            <li><a href="https://104104104.github.io/program/tapioka/">荒ぶるタピオカ</a>
+        </ul>
+            </li>
+</ul>
+<ul>
     <li><a href="/website/">Website</a>
         <ul>
             <li><a href="https://104104104.github.io/website/tsunaguhugo/">つなぐカフェ＠飯塚webサイト(Hugoバージョン)</a>
             <li><a href="https://104104104.github.io/website/tsunaguold/">つなぐカフェ＠飯塚webサイト(旧バージョン)</a>
+        </ul>
+            </li>
+</ul>
+<ul>
+    <li><a href="/event/">Event</a>
+        <ul>
+            <li><a href="https://104104104.github.io/event/pyxel/">初心者のためのレトロゲームを作ってみようの会</a>
+            <li><a href="https://104104104.github.io/event/rantyao/">藍橋杯(国際プログラミングコンテスト)のスタッフ　および　藍橋杯に向けた勉強会主催</a>
+            <li><a href="https://104104104.github.io/event/sinnyuusei/">新入生のためのプログラミング入門イベントの主催</a>
         </ul>
             </li>
 </ul>
@@ -157,14 +181,6 @@
         </ul>
             </li>
 </ul>
-<ul>
-    <li><a href="/event/">Event</a>
-        <ul>
-            <li><a href="https://104104104.github.io/event/rantyao/">藍橋杯(国際プログラミングコンテスト)のスタッフ　および　藍橋杯に向けた勉強会主催</a>
-            <li><a href="https://104104104.github.io/event/sinnyuusei/">新入生のためのプログラミング入門イベントの主催</a>
-        </ul>
-            </li>
-</ul>
         <ul>
             <li><a href="https://104104104.github.io/pyxel/">Pyxel</a>
         </ul>
@@ -176,6 +192,11 @@
         </div>
     </div>
 </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 
 
 
