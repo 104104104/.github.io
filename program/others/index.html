@@ -40,40 +40,112 @@
   <div class="row">
     <div class="col-md-12">
       <div class="entry-header">
-        <span class="entry-date">Feb 02, 2019</span>
-        <h1 class="entry-title">「つなぐカフェ＠飯塚」とはどういう場所か知らせる</h1>
+        <span class="entry-date">Jul 07, 2019</span>
+        <h1 class="entry-title">その他、計算機科学の技術にまつわる、今まで行ってきたこと</h1>
       </div>
     </div>
 
     <div class="col-md-12">
       <div class="entry-content">
-        <p>
+        <p><p>エンジニアとして人並み以上のことは行ってきたつもりです。証拠として、以下に行ったことを箇条書きします。</p>
 
-<h3 id="なぜ作ったか">なぜ作ったか</h3>
+<ul>
+<li><p>小説を書くAI</p>
 
-<p>バイト先の「つなぐカフェ＠飯塚」で、利用者にこの施設がどういう場所かを毎回説明するのは難しいと感じた。</p>
+<ul>
+<li>AIと人が一文づつ交互に文を書くことで、小説を書けるAI</li>
+<li>用いたもの
 
-<p>そこで、「とりあえずこの紙を渡せば最低限は伝わる」紙を目指して作った。</p>
+<ul>
+<li>Python</li>
+<li>Chainer</li>
+</ul></li>
+<li>コードはこちら(<a href="https://github.com/104104104/RelayNovelAI">https://github.com/104104104/RelayNovelAI</a>)</li>
+</ul></li>
 
-<h3 id="想定している相手">想定している相手</h3>
+<li><p>レトロゲーム</p>
 
-<p>(この紙を作っていた頃は、相手を想定して作る、みたいなことはあまり意識していなかった気もするが、)渡す相手はすでにつなぐカフェ＠飯塚内にいる前提なので、スタッフがこの紙を利用者に見せながら、実際の施設を指差して説明をするつもりで作った。</p>
+<ul>
+<li>Pythonのレトロ風のゲームが作れるモジュール”Pyxel”で書きました</li>
+<li>Pythonで色々遊ぶうちにPythonになれることができたので、このゲーム全体は４時間程度で書くことができました</li>
+<li>詳細は
+<a href="../../program/pyxelgame/index.html" class="">
+こちら
+</a></li>
+</ul></li>
 
-<h3 id="伝えたいこと">伝えたいこと</h3>
+<li><p>キモいタピオカが動くJavaScript</p>
 
-<p>つなぐカフェ＠飯塚の理想的な利用例を伝えたかった。</p>
+<ul>
+<li>Javascriptの勉強がてらに作成した</li>
+<li>深夜に2時間程度で書いた
 
-<p>説明に使う都合上、どのような設備があるのかが一目でわかる「設備一覧」も欲しかったが、それ以上に、実際に使われている様子の写真をたくさん載せた。</p>
+<ul>
+<li>JavaScriptの知識ほぼゼロから、調べつつ動くものを作るまでを、2時間で行うことができた。プログラミングに慣れている証拠になるだろう</li>
+</ul></li>
+<li>詳細は
+<a href="../../program/tapioka/index.html" class="">
+こちら
+</a></li>
+</ul></li>
 
-<h3 id="pdf版">PDF版</h3>
+<li><p>その他、Pythonで書いたもの</p>
 
-<p><a href="../../flier/tsunaguabout/TsunaguAbout.pdf" class="">
-   こちら
-</a></p>
+<ul>
+<li>文章を生成(<a href="https://github.com/104104104/MyJapaneseNTTK">https://github.com/104104104/MyJapaneseNTTK</a>)</li>
+<li>単語の意味推測(<a href="https://github.com/104104104/MyJapaneseNTTK">https://github.com/104104104/MyJapaneseNTTK</a>)</li>
+<li>迷路を生成(<a href="https://github.com/104104104/PyMaze)、">https://github.com/104104104/PyMaze)、</a></li>
+<li>音の波形を生成(<a href="https://github.com/104104104/Py_De_Music">https://github.com/104104104/Py_De_Music</a>)</li>
+<li>(あまり堂々と言えないが)再帰で辿ってサイト内の画像を全部拾ってくるコード</li>
+</ul></li>
 
-<p><img src="../../flier/tsunaguabout/TsunaguAbout.jpg" class="img-fluid " style=""></p>
+<li><p>AmazonLightSail</p>
 
-<p><img src="../../flier/tsunaguabout/TsunaguAbout2.jpg" class="img-fluid " style=""></p>
+<ul>
+<li>つなぐカフェのWebサイトを作る際のテストのため、サーバーとして使うために借りて、SSHで接続して色々と実験しました
+
+<ul>
+<li>とくに記録は残っていないです…</li>
+</ul></li>
+</ul></li>
+
+<li><p>Githubについて</p>
+
+<ul>
+<li>Githubを扱った経験が重要だというネット記事はよく見るので、書き記しておきます</li>
+<li>
+<a href="../../index.html" class="">
+吉田のポートフォリオ
+</a>
+はgithub pageで作成しています</li>
+<li>つなぐカフェ@飯塚のwebサイト(<a href="http://www.tsunagucafe.com)のコードは、githubで複数人で管理しています">http://www.tsunagucafe.com)のコードは、githubで複数人で管理しています</a>
+
+<ul>
+<li>ソースコードの確認や、ブログ記事を書くときにここのコードを参考にするためです</li>
+<li>バイト先のプライベートレポジトリなので、リンクは貼れません…
+
+
+<br /></li>
+</ul></li>
+</ul></li>
+
+<li><p>競技プログラミング</p>
+
+<ul>
+<li>一時期競技プログラミングにはまっていました
+
+<ul>
+<li>AtCoderでギリギリ緑でない茶色のエリアをうろうろしていました</li>
+</ul></li>
+<li>競技プログラミングのアルゴリズムが書けても、自分のしたい仕事には繋がらないなと感じたので、飽きました</li>
+<li>が、縁があって競技プログラミングの勉強会の企画運営をすることになりました
+
+<ul>
+<li>競プロだけに役立つ知識を教えても仕方ないと思ったので、そもそもプログラミングってなんだ？　といった内容を伝える勉強会にしました</li>
+<li>詳細はこちら(<a href="https://104104104.github.io/event/rantyao/">https://104104104.github.io/event/rantyao/</a>)</li>
+</ul></li>
+</ul></li>
+</ul>
 </p>
       </div>
     </div>
