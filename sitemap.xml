@@ -3,24 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://104104104.github.io/introduce/</loc>
-    <lastmod>2019-07-15T19:51:21+09:00</lastmod>
+    <loc>https://104104104.github.io/website/</loc>
+    <lastmod>2019-09-01T23:10:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://104104104.github.io/introduce/manabi/</loc>
-    <lastmod>2019-07-15T19:51:21+09:00</lastmod>
+    <loc>https://104104104.github.io/website/tsunaguhugo2/</loc>
+    <lastmod>2019-09-01T23:10:04+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://104104104.github.io/</loc>
+    <lastmod>2019-09-01T23:10:04+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/works/</loc>
+    <lastmod>2019-09-01T15:30:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/introduce/</loc>
+    <lastmod>2019-09-01T15:27:12+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/interesting/</loc>
     <lastmod>2019-07-15T19:51:21+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://104104104.github.io/introduce/design/</loc>
+    <loc>https://104104104.github.io/interesting/manabi/</loc>
+    <lastmod>2019-07-15T19:51:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/interesting/design/</loc>
     <lastmod>2019-07-15T19:50:55+09:00</lastmod>
   </url>
   
@@ -59,12 +80,6 @@
   <url>
     <loc>https://104104104.github.io/website/tsunaguhugo/</loc>
     <lastmod>2019-06-28T19:47:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://104104104.github.io/website/</loc>
-    <lastmod>2019-06-28T19:47:05+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -10,135 +10,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   
   <link rel="stylesheet" href="./mycss/style.css">
-  </link>
+  <link rel="stylesheet" href="./mycss/style2.css">
+  <link rel="stylesheet" href="./mycss/move.css">
 </head>
 
 <body>
-  <header>
-    
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
-      <a href="./" class="navbar-brand">吉田の<br>ポートフォリオ</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu1" aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navmenu1">
-        <div class="navbar-nav">
-          <a href="./introduce/manabi" class="navbar-brand">学び</a>
-          <a href="./introduce/design" class="navbar-brand">デザイン</a>
-          <a href="./program" class="navbar-brand">テクノロジー</a>
-          <a href="./portfolio" class="navbar-brand">一覧</a>
-        </div>
-        <a href="https://github.com/104104104" class="navbar-brand">GitHub</a>
-      </div>
-    </nav>
-
-  </header>
+  
+  
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6" style="display: flex;  align-items: center;">
-      <div class="selfIntro">
-        <h1>吉田信将</h1>
-        <p>九州工業大学 情報工学部 知能情報工学科</p>
-        <p>2021年卒業予定</p>
-        <p>Mail : yoshida.toshinobu388@mail.kyutech.jp</p>
-      </div>
+
+  <div class="tops">
+    <img src="./img/tops/triangle4.png" class="img-fluid tops1">
+
+    <div class="menuDisplayClass">
+      <img src="./img/tops/menu/triangle41.png" usemap="#ImageMap" alt="" class="img-fluid tops3" />
+      <map name="ImageMap">
+        <area shape="rect" coords="77,1286,358,1374" href="./" alt="" />
+        <area shape="rect" coords="422,1307,577,1352" href="./introduce" alt="" />
+        <area shape="rect" coords="633,1307,842,1346" href="./works" alt="" />
+      </map>
     </div>
-    <div class="col-md-6">
-      <img src="./img/me.jpg" class="img-fluid myimg">
+
+    <div class="fixed-menu">
+      <img src="./img/tops/menu/menu31.png" usemap="#ImageMap2" alt="" class="img-fluid" />
+      <map name="ImageMap2">
+        <area shape="rect" coords="79,26,358,126" href="./" alt="" />
+        <area shape="rect" coords="420,50,581,99" href="./introduce" alt="" />
+        <area shape="rect" coords="639,47,843,98" href="./works" alt="" />
+      </map>
     </div>
+    <img src="./img/tops/menu/toumei.png" class="img-fluid notAbsolute">
   </div>
 
-  <div class="myDetail">
+  <br>
+
+  <div class="container mainText">
     <div class="row">
       <div class="col-md-12">
-        <h3>吉田の興味・関心</h3>
-        <p>「学び」「デザイン」「テクノロジー」の３つの軸で紹介します。<br>
-          この３つの軸をうまく1つにまとめて、自分で納得できる形に表現したいと考えているのですが、適切なまとめ方がまだわかっていません。</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <h1>学び</h1>
-        <p>人が新しいことを学び変化することの支援や、そもそも「学ぶ」とはどういうことか、といった知見に興味があります。<br>例えば、「U理論」や「暗黙知」と行った知見に興味があります。</p>
-        <p><a href="./introduce/manabi/index.html">詳しくはこちら ></a></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="myDetailBox">
-          <h5>「レトロゲームを作ってみようの会」</h5>
-          <a href="./event/pyxel"><img src="./img/manabi3.jpg" class="img-fluid"></a>
-          <p>学んでいる途中で「自分が変化する」ことを勘定に入れた方が、自分の成長につながるのではないかと伝えた勉強会です。</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="myDetailBox">
-          <h5>「競プロ勉強会」</h5>
-          <a href="./event/rantyao"><img src="./img/manabi2.jpg" class="img-fluid"></a>
-          <p>自分でプログラミングの勉強をするときに役立つ知識や、もっと一般に、何かを学ぶときに役立つ知識を伝えるようにしました。</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="myDetailBox offBox-md">
-          <h5>「プログラミング入門イベント」</h5>
-          <a href="./event/sinnyuusei"><img src="./img/manabi1.jpg" class="img-fluid"></a>
-          <p>参加者のみなさんが、能動的にプログラミングの勉強をしたくなるイベントを目指しました。</p>
-        </div>
+        <h1>大切にしている考え方 : まず問題を整理する</h1>
+        <img src="./img/underbar.png" class="underbar">
+        <p>
+          吉田は、問題を解決するためには、手段を考えるより前に、まず今ある問題を明確にすることが大切だと考えています。<br>
+          そのうえで、問題を解決する手段として、デザインを考えたり技術を使ったりするよう心がけています。
+        </p>
+        <p>
+          例えば、Webサイトを作る時でしたら、いきなり「情報をかっこよく見せるデザイン」のような曖昧なものを考えるのではなく、まず「誰に情報を伝えるのか」「その人にとってどう嬉しい情報なのか」をよく考え、それを元に解決する問題を改めて整理し、情報の見せ方を考えることが大切だと考えています。
+        </p>
+        <p>
+          webサイトのデザインだけに限らず、技術を使う時でも、例えばデータベースを使いたいのでRailsで実装するという風に、解決したい問題に応じて技術を選ぶことが大切だと考えています。
+        </p>
       </div>
     </div>
 
+
     <div class="row">
       <div class="col-md-12">
-        <h1>デザイン</h1>
-        <p>「誰にとって価値のある情報なのか」をじっくり考えて、デザインやモノづくりをすることが好きです。<br>
-          『ノンデザイナーズ・デザインブック』はいつも参考にしています。</p>
-        <p><a href="./introduce/design/index.html">詳しくはこちら ></a></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <h5>「競技プログラミング勉強会」<br>告知用フライヤー</h5>
-        <a href="./flier/kyoupuroseptember"><img src="./img/design3.jpg" class="img-fluid"></a>
-        <p>伝えたい相手</p>
-        <p>「新しいことを学ぼう」という気がある人で、特にアルゴリズムに興味がある人。学ぶきっかけや、学びやすい環境を探している人。</p>
-      </div>
-      <div class="col-md-4">
-        <h5>「つなぐカフェ@飯塚」<br>公式webサイト</h5>
-        <a href="./website/tsunaguhugo"><img src="./img/design2.jpg" class="img-fluid"></a>
-        <p>伝えたい相手</p>
-        <p>飯塚の学生。特に、自分の活動を広めたい人、新しい技術で遊びたい人、活動や作業をしやすい場所を探している人。</p>
-      </div>
-      <div class="col-md-4">
-        <div class="offBox-md">
-          <h5>「つなぐカフェ@飯塚」<br>スタッフ募集フライヤー</h5>
-          <a href="./flier/tsunagustaff"><img src="./img/design1.jpg" class="img-fluid"></a>
-          <p>伝えたい相手</p>
-          <p>「学びながら働く」ことの興味がある大学生。</p>
-        </div>
+        <h1>自分の強み : 幅広い分野の知識がある</h1>
+        <img src="./img/underbar.png" class="underbar">
+        <p>
+          上の考えを大前提とした上で、自分の強みは、Webのデザインからバックエンドの実装まで幅広い分野の知識があることだと考えています。
+        </p>
       </div>
     </div>
 
-    <div class="row">
+    <div class="topWorks">
+      <div class="row">
         <div class="col-md-12">
-          <h1>テクノロジー</h1>
-          <p>技術には興味を持って、いろんなことに取り組んできました。</p>
-          <p><a href="./program/index.html">詳しくはこちら ></a></p>
+          <h3>チームでの作業の多くに関わることができます</h3>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="./img/topimg1.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-9">
+          <p>これまで、「デザインだけ」「技術だけ」を扱うのでなく、幅広い分野に挑戦し積極的に学んできました。</p>
+          <p>
+            例えば、アルバイト先で業務の一環として、公式Webサイトの作成を行いました。吉田は、Webサイトのデザインを紙に書いて設計するところから、HTML+css+jsと静的サイトジェネレータHUGOでの実装を行いました。<br>実装した後、そのサイトをバイト先の自前のサーバーで公開することになったのですが、人手が空いていなかったので、こちらも吉田が自分で作ることになりました。勉強しながら、WebサーバーやDNS、サブドメインを扱うためのリバースプロキシを作っています。
+          </p>
+          <p>
+            ほぼ全てを吉田が一人で実装しました。が、作業の全体を通して、まめにアルバイト先の人と話をし、制作物の検証・修正を繰り返しました。
+          </p>
+          <p><a href="./website/tsunaguhugo2/">このサイトについて、詳しくはこちら ></a></p>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-</main>
+    <div class="topWorks">
+      <div class="row">
+        <div class="col-md-12">
+          <h3>複数の分野の知識を生かして、問題の解決策を考えることができます</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <img src="./img/topimg2.jpg" class="img-fluid">
+        </div>
+        <div class="col-md-9">
+          <p>
+            複数の分野の知識を生かして、それぞれの分野をうまく組み合わせた問題の解決策を考えることもできます。</p>
+          <p>
+            例えば、アルバイトの一環で、学内で「レトロゲームを作ってみようの会」というイベントを行ったことがあります。技術に触れることを通して、大学での学びについて考えてもらうイベントでした。
+          </p>
+          <p>
+            人に伝わるように情報の見せ方を考えることを「デザイン」だと定義すると、ゲーム作りなどのプログラミングの技術に興味のある人の多い情報工学部では、参加してもらい自分のこととして考えてもらうために、イベントにこのような技術を用いることは非常に有効なデザインだったと考えます。
+          </p>
+          <p><a href="./event/pyxel/">詳しくはこちら ></a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h1>その他、必要に応じて制作したもの</h1>
+        <img src="./img/underbar.png" class="underbar">
+        <p>
+          イベントを企画運営することになり、人手が空いておらずフライヤーを自分で勉強して制作したことや、「レトロゲームを作ってみようの会」で吉田が作りかけたゲームの評判がよかったので完成させてネット上で公開したことなど、これまで様々なことをしてきました。
+        </p>
+        <p>
+          詳細は<a href="./works">こちら</a>にまとめています。
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+  </main>
 
 
 <footer>
   <div class="container-fluid">
     <div class="container">
+
+        <div class="row">
+            <div class="col-md-6">
+              <h3>吉田信将</h3>
+              <p>九州工業大学 情報工学部 知能情報工学科　2021年卒業予定</p>
+            </div>
+            <div class="col-md-6">
+              <h3>連絡先</h3>
+              <p>Mail : yoshida.toshinobu388@mail.kyutech.jp</p>
+            </div>
+          </div>
+
       <div class="row">
         <div class="col-md-12">
           <h2>サイトマップ</h2>
@@ -146,10 +167,19 @@
 <ul>
   <li><a href="./">吉田のポートフォリオ</a>
 <ul>
-  <li><a href="./introduce/">Introduce</a>
+  <li><a href="./website/">Website</a>
     <ul>
-      <li><a href="./introduce/manabi/">吉田の興味関心：学び</a>
-      <li><a href="./introduce/design/">吉田の興味関心：デザイン</a>
+      <li><a href="./website/tsunaguhugo2/">つなぐカフェ＠飯塚webサイト(Hugoバージョン)</a>
+      <li><a href="./website/tsunaguhugo/">つなぐカフェ＠飯塚webサイト(Hugoバージョン)(一応残してある、説明の文章が古いバージョン)</a>
+      <li><a href="./website/tsunaguold/">つなぐカフェ＠飯塚webサイト(旧バージョン)</a>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li><a href="./interesting/">Interesting</a>
+    <ul>
+      <li><a href="./interesting/manabi/">吉田の興味関心：学び</a>
+      <li><a href="./interesting/design/">吉田の興味関心：デザイン</a>
     </ul>
   </li>
 </ul>
@@ -176,14 +206,6 @@
   </li>
 </ul>
 <ul>
-  <li><a href="./website/">Website</a>
-    <ul>
-      <li><a href="./website/tsunaguhugo/">つなぐカフェ＠飯塚webサイト(Hugoバージョン)</a>
-      <li><a href="./website/tsunaguold/">つなぐカフェ＠飯塚webサイト(旧バージョン)</a>
-    </ul>
-  </li>
-</ul>
-<ul>
   <li><a href="./event/">Event</a>
     <ul>
       <li><a href="./event/pyxel/">初心者のためのレトロゲームを作ってみようの会</a>
@@ -195,24 +217,15 @@
   </li>
 </ul>
     <ul>
+      <li><a href="./works/">作品まとめ</a>
+      <li><a href="./introduce/">自己紹介</a>
       <li><a href="./portfolio/">作ったものたち</a>
     </ul>
   </li>
 </ul>
         </div>
-
-
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <h3>吉田信将</h3>
-          <p>九州工業大学 情報工学部 知能情報工学科　2021年卒業予定</p>
-        </div>
-        <div class="col-md-6">
-          <h3>連絡先</h3>
-          <p>Mail : yoshida.toshinobu388@mail.kyutech.jp</p>
-        </div>
-      </div>
+
     </div>
   </div>
 </footer>
@@ -224,7 +237,9 @@
 
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+<script src="./myjs/move.js"></script>
 </body>
 
 </html>
-
