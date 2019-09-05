@@ -1,3 +1,7 @@
+.wrap{
+  opacity: 0;
+}
+
 .mainText h1{
   text-align: center;
   margin-top: 10%;
@@ -10,12 +14,19 @@
 .mainText p{
   font-size: 18px;
 }
+.notBigH3{
+  font-size: 18px;
+}
 
 .underbar{
   width:80%;
   display: block;
   margin:auto;
   padding: 0px 0px 0px 0px;
+  margin-bottom: 5%;
+}
+
+.portfolioimg{
   margin-bottom: 5%;
 }
 
