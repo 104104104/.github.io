@@ -6,10 +6,30 @@
     <description>Recent content in Program on 吉田のポートフォリオ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 15 Jul 2019 19:04:56 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 12:42:56 +0900</lastBuildDate>
     
 	<atom:link href="https://104104104.github.io/program/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>猫とタピオカ</title>
+      <link>https://104104104.github.io/program/nekotapi/</link>
+      <pubDate>Thu, 05 Sep 2019 12:42:56 +0900</pubDate>
+      
+      <guid>https://104104104.github.io/program/nekotapi/</guid>
+      <description> 概要 個人で作ったゲームです。猫とタピオカを大量に集めることを目指します。最大1000個くらい集めることができるかと思います。
+こちらから遊べます。
+プレイ動画↓(ファイルサイズを小さくするため、画質が悪くなっています)
+ なぜ作ったか 吉田が開催したイベント 「初心者のためのレトロゲームを作ってみようの会」  にて 吉田が制作しかけたゲーム  が好評でした。せっかくなので完成させることにしました。
+一番工夫した点  遊んで面白いための、適度な猫とタピオカが出てくるペースの調整に、一番苦心しました。  面白いためには遊んでいてハラハラすることが大事と考えた。なので、だんだんと難易度を上げていくようにしたかった。そのため、終盤になる程、猫とタピオカの登場ペースをあげようと考えた。 が、増える度合いを適切に調整することが難しかった。少なすぎると見た目にも迫力がないし、増加の度合いを大きくしすぎると、CPUの処理能力の限界を簡単に超えてしまう。また、速度の調整にも難儀した。 失敗した際の動画を以下に載せます
+増加が早すぎたバージョン
+
+さらに増加を早くしてしまったバージョン
+
+動くスピードの調整を誤ったバージョン
+
+   技術的なエピソード  railsでスコアサーバを作りました。  なんども遊びたくなるためには、スコアを保存して人と比較し、順位をあげようと思うことが重要ではと考えた。そのため、周囲に詳しい人の多かったrailsでスコアサーバを作りました。  JavaScriptのゲームフレームワーク&amp;rdquo;Phina.js&amp;rdquo;を用いています  </description>
+    </item>
     
     <item>
       <title>計算機科学の技術にまつわる、今まで行ってきたこと</title>
