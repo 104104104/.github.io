@@ -3,6 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://104104104.github.io/website/myportfolio/</loc>
+    <lastmod>2019-09-05T15:40:06+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/website/</loc>
+    <lastmod>2019-09-05T15:40:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://104104104.github.io/</loc>
+    <lastmod>2019-09-05T15:40:06+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://104104104.github.io/program/nekotapi/</loc>
     <lastmod>2019-09-05T12:42:56+09:00</lastmod>
   </url>
@@ -10,18 +27,6 @@
   <url>
     <loc>https://104104104.github.io/program/</loc>
     <lastmod>2019-09-05T12:42:56+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://104104104.github.io/</loc>
-    <lastmod>2019-09-05T12:42:56+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://104104104.github.io/website/</loc>
-    <lastmod>2019-09-01T23:10:04+09:00</lastmod>
     <priority>0</priority>
   </url>
   
