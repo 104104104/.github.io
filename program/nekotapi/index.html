@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>吉田信将のポートフォリオ</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../../mycss/style.css">
+    <link rel="stylesheet" href="../../mycss/style2.css">
+    <link rel="stylesheet" href="../../mycss/move.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            
+            <nav class="navbar navbar-dark navbar-expand-sm portfoliomenu fixed-top" id="normalmenu">
+                <a href="../../" class="navbar-brand">吉田信将の<br>ポートフォリオ</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu1" aria-controls="navmenu1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                <div class="collapse navbar-collapse" id="navmenu1">
+                    <div class="navbar-nav">
+                        <a href="../../introduce" class="navbar-brand">Information</a>
+                        <a href="../../works" class="navbar-brand">Works</a>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <div class="spaceForMenu" id="spaceForMenuid"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="entry-header">
+        <span class="entry-date">Sep 09, 2019</span>
+        <h1 class="entry-title">猫とタピオカ</h1>
+      </div>
+    </div>
+
+    <div class="col-md-12">
+      <div class="entry-content">
+        <p>
+
+<h3 id="概要">概要</h3>
+
+<p>個人で作ったゲームです。猫とタピオカを大量に集めることを目指します。最大1000個くらい集めることができるかと思います。<br>
+<a href="https://game.tanikawaichi.work/nekotapi/title">こちら</a>から遊べます。</p>
+
+<p>プレイ動画↓(ファイルサイズを小さくするため、画質が悪くなっています)</p>
+
+<video src="nekotapimovie1.mov" controls></video>
+
+<h3 id="なぜ作ったか">なぜ作ったか</h3>
+
+<p>吉田が開催したイベント
+<a href="../../event/pyxel" class="">
+  「初心者のためのレトロゲームを作ってみようの会」
+</a>
+にて
+<a href="../../program/pyxelgame" class="">
+  吉田が制作しかけたゲーム
+</a>
+が好評でした。せっかくなので完成させることにしました。</p>
+
+<h3 id="一番工夫した点">一番工夫した点</h3>
+
+<ul>
+<li>遊んで面白いための、適度な猫とタピオカが出てくるペースの調整に、一番苦心しました。
+
+<ul>
+<li>面白いためには遊んでいてハラハラすることが大事と考えた。なので、だんだんと難易度を上げていくようにしたかった。そのため、終盤になる程、猫とタピオカの登場ペースをあげようと考えた。</li>
+<li>が、増える度合いを適切に調整することが難しかった。少なすぎると見た目にも迫力がないし、増加の度合いを大きくしすぎると、CPUの処理能力の限界を簡単に超えてしまう。また、速度の調整にも難儀した。</li>
+<li>失敗した際の動画を以下に載せます<br><br>
+増加が早すぎたバージョン<br>
+<video src="nekotapimovie2.mov" controls></video><br>
+さらに増加を早くしてしまったバージョン<br>
+<video src="nekotapimovie3.mov" controls></video><br>
+動くスピードの調整を誤ったバージョン<br>
+<video src="nekotapimovie4.mov" controls></video><br></li>
+</ul></li>
+</ul>
+
+<h3 id="技術的なエピソード">技術的なエピソード</h3>
+
+<ul>
+<li>railsでスコアサーバを作りました。
+
+<ul>
+<li>なんども遊びたくなるためには、スコアを保存して人と比較し、順位をあげようと思うことが重要ではと考えた。そのため、周囲に詳しい人の多かったrailsでスコアサーバを作りました。</li>
+</ul></li>
+<li>JavaScriptのゲームフレームワーク&rdquo;Phina.js&rdquo;を用いています</li>
+</ul>
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+
+<footer>
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>吉田信将</h3>
+                    <p>九州工業大学 情報工学部 知能情報工学科<br>2021年卒業予定</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>連絡先</h3>
+                    <p>Mail : yoshida.toshinobu388@mail.kyutech.jp</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h3><a href="../../">TOP</a></h3><br>
+                    <h3><a href="../../introduce">Information</a></h3><br>
+                    <h3><a href="../../works">Works</a></h3><br>
+                </div>
+            </div>
+
+            
+
+        </div>
+    </div>
+</footer>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+<script src="../../myjs/move.js"></script>
+</body>
+
+</html>
